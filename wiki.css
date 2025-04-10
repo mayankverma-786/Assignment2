@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+    color: #202122;
+  }
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #0645ad;
+    font-size: 0.95em;
+    cursor: pointer;
+    padding: 5px 0;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #0645ad;
+    font-size: 0.95em;
+    cursor: pointer;
+    padding: 5px 0;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .toggle-btn:hover {
+    text-decoration: underline;
+  }
+  .image-box {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #f8f8f8;
+    font-size: 0.9em;
+  }
+  
+  .wiki-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .caption {
+    margin-top: 5px;
+    color: #202122;
+    text-align: left;
+  }
+  
+  .caption a {
+    color: #0645ad;
+    text-decoration: none;
+  }
+  
+  .caption a:hover {
+    text-decoration: underline;
+  }
+  
+  .sublist {
+    margin-left: 15px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-right: 30px;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 8px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0645ad;
+  }
+  
+  .main {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-right: 1px solid #a2a9b1;
+  }
+  
+  .sidebar .toc-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 8px;
+  }
+  
+  .sidebar ul li ul {
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #0645ad;
+    font-size: 0.95em;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .content h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  
+  .article-image {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 300px;
+    border: 1px solid #a2a9b1;
+  }
+  
+  .content p {
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
